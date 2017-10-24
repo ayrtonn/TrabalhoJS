@@ -1,4 +1,4 @@
-"# TrabalhoJS" 
+﻿"# TrabalhoJS" 
 
 1- O que é JavaScript?
 
@@ -71,6 +71,53 @@ Imaginemos que um emissor está a enviar uma mensagem de texto através de um tu
 
 Em comunicação Assíncrona, cada bola tem um número de sequência, que permite que seja colocada na sua posição. Isto permite que as bolas sejam enviadas e recebidas por qualquer ordem, uma vez que esse número de sequência identifica a posição de cada bola (letra) na mensagem.
 Em comunicação síncrona, as bolas têm que ser enviadas e recebidas de forma sincronizada, mantendo uma ordem bem definida: a primeira bola (letra) a ser enviada, tem que ser a primeira a ser recebida e assim sucessivamente.
+
+Criação de funções (ES5/ES6)
+O que seria uma função?
+Uma função não é nada mais que um "subprograma" que pode ser chamado de código externoá função. Assim como um programa, uma função é composta por sequências de instruções .
+Em ES, funções são objetos de primeira classe, isto é, elas podem ter propriedade e métodos como qualquer outro objeto. o que difere estes objetos de outros é que eles podem ser chamados.
+Discrição.
+Toda função em ES é um objeto Function. Funções não são procedimentos (procedure). Uma função  sem retun, retorna um valor padrão, já um procedimento não precisa retorna nada porem ele pode voltar algum valor.
+A função deve ter o comando return que específica o valor a ser retornado. Uma função sem return retornará um valor padrão. No caso de um métoo construtor chamado com a palavra reservada new,o valor padão é o valor do parâmetro this. Para todas as outras funções, o valor padrão de retorno é undefinid. 
+
+Definição de função
+Há um sintaxe especial para declarar funções:
+1.	function nome([param[, param[, ... param]]]) {
+2.	   instruções
+3.	}
+
+   
+
+Arrays
+Arrays são estruturas de dados que armazenam elementos que de tal forma possam ser identificados por,pelo menos , um índice ou chave.
+Basicamente arrays são listas de super mercado, você diz o que tem dentro da lista e o que cada item da lista tem.
+
+
+Common JS
+CommonJS é um API  com objetivo de agrupar necessidades de diversas aplicações  JavaScript em uma única API, que funcione em diversos ambientes e interpretadores. Criando o conceito de  módulos que façam essa funções.
+Dentre as funcionalidades oferecidas temos:
+
+1.	Definições Assíncronas
+2.	Promessas
+3.	Testes unitários
+AngularJS/JQuery
+
+Angular:
+A premissa do Angular é ser um Framework MV* (Model – View – Qualquer Coisa) para desenvolvimento do front-end de aplicações web, ou seja, que rodam dentro do navegador do cliente.
+Sua filosofia parte de que uma programação declarativa é muito mais importante que uma programação imperativa quando se trata de desenvolvimento web. Ele atinge isso estendendo o HTML e fazendo uma linguagem para o desenvolvimento de interfaces web dinâmicas.
+JQuery:
+JQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do cliente.
+O jQuery foi criado sob o mantra do “Write less, do more” (Escreva menos, faça mais) e é exatamente por causa disso que ele é tão surpreendente, com algumas poucas linhas de código você consegue fazer os mais variados efeitos que antes custavam dezenas de linhas de código com Javascript puro ou algumas horas de trabalho em Flash. 
+
+Basicamente, jQuery é uma biblioteca Javascript, que simplifica o Javascript para atividades comuns no dia-a-dia do desenvolvimento. Excelente para manipular o DOM com muito menos código que o JS puro. 
+Já AngularJS é um framework, que trabalha com dados, focando na interação usuário <-> aplicativo. Tem os seguintes pontos principais
+
+PWA
+
+PWA (Progressive Web App ) é um nova metodologia de desenvolvimento de software. Ao contrário dos tradicionais aplicativos, um PWA pode ser visto como uma evolução híbrida entre as paginas da web regulares e um aplicativo móvel.
+Esse tipo de aplicativo progressivo utiliza as capacidades dos navegadores modernos para entregar ao usuário uma experiência tão boa quanto a de um aplicativo nativo. Perceba que esses apps são diferentes de um app híbrido, que utiliza uma aplicação em HTML5 envolvida por um casco nativo, mas que ainda assim precisa ser instalado pela App Store.
+As vantagens para o usuário
+A principal vantagem para o usuário é a de não precisar se comprometer a baixar um aplicativo antes mesmo de saber se valerá a pena ou não. Esse é um dos maiores problemas dos apps nativos de hoje, e os progressive web apps prometem deixar essa barreira completamente invisível e gradual. Nada de ter que ir até a app store, esperar o download do app, abri-lo pela primeira vez ou ter que se cadastrar antes de começar a usá-lo.
 
 
 REFERÊNCIAS:
