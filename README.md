@@ -72,6 +72,8 @@ Imaginemos que um emissor está a enviar uma mensagem de texto através de um tu
 Em comunicação Assíncrona, cada bola tem um número de sequência, que permite que seja colocada na sua posição. Isto permite que as bolas sejam enviadas e recebidas por qualquer ordem, uma vez que esse número de sequência identifica a posição de cada bola (letra) na mensagem.
 Em comunicação síncrona, as bolas têm que ser enviadas e recebidas de forma sincronizada, mantendo uma ordem bem definida: a primeira bola (letra) a ser enviada, tem que ser a primeira a ser recebida e assim sucessivamente.
 
+6-
+
 Criação de funções (ES5/ES6)
 O que seria uma função?
 Uma função não é nada mais que um "subprograma" que pode ser chamado de código externoá função. Assim como um programa, uma função é composta por sequências de instruções .
@@ -87,11 +89,13 @@ Há um sintaxe especial para declarar funções:
 3.	}
 
    
+7-
 
 Arrays
 Arrays são estruturas de dados que armazenam elementos que de tal forma possam ser identificados por,pelo menos , um índice ou chave.
 Basicamente arrays são listas de super mercado, você diz o que tem dentro da lista e o que cada item da lista tem.
 
+8-
 
 Common JS
 CommonJS é um API  com objetivo de agrupar necessidades de diversas aplicações  JavaScript em uma única API, que funcione em diversos ambientes e interpretadores. Criando o conceito de  módulos que façam essa funções.
@@ -100,6 +104,9 @@ Dentre as funcionalidades oferecidas temos:
 1.	Definições Assíncronas
 2.	Promessas
 3.	Testes unitários
+
+9-
+
 AngularJS/JQuery
 
 Angular:
@@ -111,6 +118,9 @@ O jQuery foi criado sob o mantra do “Write less, do more” (Escreva menos, fa
 
 Basicamente, jQuery é uma biblioteca Javascript, que simplifica o Javascript para atividades comuns no dia-a-dia do desenvolvimento. Excelente para manipular o DOM com muito menos código que o JS puro. 
 Já AngularJS é um framework, que trabalha com dados, focando na interação usuário <-> aplicativo. Tem os seguintes pontos principais
+
+
+10-
 
 PWA
 
